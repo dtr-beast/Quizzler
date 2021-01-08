@@ -130,6 +130,7 @@ class _QuizPageState extends State<QuizPage> {
             ),
           ),
         ),
+        // Wrap Widget wraps the Icons in the screen to another row / column according to the wrapping direction
         Wrap(
           direction: Axis.horizontal,
           children: scoreList,
